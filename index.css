@@ -1,0 +1,127 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1a1508;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: rgba(245, 200, 66, 0.4);
+}
+
+#header {
+    margin: 0;
+    padding: 28px 0 18px;
+    background-color: #211c09;
+    border-bottom: 1px solid #3d3010;
+}
+
+#header *:first-child {
+    margin-top: 0;
+}
+
+#appHeading {
+    color: #f5c842;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.inter-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.input-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#input {
+    background-color: #141104;
+    color: #e8d080;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: 1px solid #5a4510;
+    border-radius: 6px;
+    width: 500px;
+}
+
+#input::placeholder {
+    color: #5a4818;
+}
+
+#searchBtn {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5c842;
+    color: #1a1508;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: #ffd85e;
+}
+
+/* ----------------------------CARD----------------------------------------- */
+#displayResult {
+    color: #e8d080;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card-container {
+    width: 300px;
+    height: 500px;
+    background-color: #211c09;
+    border-radius: 12px;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid #3d3010;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card-container span {
+    font-size: 16px;
+    color: rgba(245, 200, 66, 0.45);
+    padding-inline-end: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-container h1 {
+    font-family: Georgia, serif;
+    color: #e8d080;
+}
+
+.card-container img {
+    margin-top: 10px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+    background-color: #2c2410;
+    color: #f5c842;
+    border-color: #5a4510;
+}
