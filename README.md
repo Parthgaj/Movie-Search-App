@@ -1,4 +1,14 @@
-# Movie-Search-App
-Movie Search App — A vanilla JavaScript web app that lets you search
-any movie or TV show and instantly browse results pulled from the OMDB API. 
-Each result displays the title, type, release year, and poster — click any card to jump straight to its IMDb page. Built with HTML, CSS, and async/await fetch
+🎬 Movie Search App
+A simple movie search web app built with vanilla HTML, CSS, and JavaScript. Search for any movie or TV show and browse results fetched live from the OMDB API.
+Features
+
+🔍 Search any movie or TV show by name
+🎴 Displays title, type, year, and poster for each result
+🔗 Click any card to open its IMDb page directly
+🎨 Warm amber/gold cinematic dark theme
+
+Tech Stack
+HTML5
+CSS3
+Vanilla JavaScript (async/await, Fetch API)
+OMDB API (free)
