@@ -6,7 +6,7 @@ async function findMovie() {
         document.getElementById("displayResult").innerHTML = null;
         try {
         // const url = `http://www.omdbapi.com/?i=tt3896198&apikey=${apikey}&t=${movieName}`;  for specific movie name
-           const url = ` http://www.omdbapi.com/?apikey=${apikey}&s=${movieName}`;
+           const url = `http://www.omdbapi.com/?apikey=${apikey}&s=${movieName}`;
 
             let response = await fetch(url);
             let data = await response.json();
